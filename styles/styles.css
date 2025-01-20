@@ -53,12 +53,14 @@ footer{
     border-top:1px solid #000;
     text-align:center;
 }
-/*Class selector*/
+/*Class selectors*/
 .box {
     margin:1rem;
     padding:1rem;
     border:1px rgb(0 0 0/ 0.2);
     background-color: yellowgreen;
     color:#000;
-
+}
+aside h2 {
+    position:absolute;
 }
