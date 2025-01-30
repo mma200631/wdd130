@@ -72,9 +72,9 @@ footer{
 aside h2 {
     position:relative;
 }
-header, .grid, footer  {
+header, footer, .grid  {
     max-width:840px;
-    height:auto;
+    height: 0 auto;
 }
 .grid {
     display:grid;
