@@ -21,7 +21,7 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 120px 2fr 2fr 2fr;
+    grid-template-columns: 120px 2fr 2fr;
     justify-items:center;
     align-items: center;
     gap:20px;
@@ -54,6 +54,144 @@ nav a {
     font-weight:bold;
 }
 
+h1 {
+    width: 500px;
+    height:auto;
+    font-size: large;
+    font-weight:600;
+    color:red;
+    text-align: center;
+    justify-self: center;
+    text-decoration: solid;
+}
+
+
+p {
+    padding:3px;
+    list-style: none;
+    font-style: normal;
+    font-size:large;
+    color:blue
+}
+
+.contanier {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px
+    
+}
+ 
+
+.map {
+    float:right;
+    width: 500px;
+    height: 400px;
+    padding: 2px;
+    position: relative;
+    border: 1px;
+}
+
+figure {
+    width: 300px;
+    margin:auto;
+}
+
+figure img {
+    width:1000px;
+    height:auto;
+    padding:1px;
+    position: relative;
+    display: block;
+}
+figcaption {
+    width: 200px;
+}
+
+.image-contanier {
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap:20px;
+    margin:2px;
+    padding:3px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+form {
+    padding: 4px;
+    margin:20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 0.3em;
+    display: grid;
+}
+
+fieldset {
+    display:grid;
+    grid-gap:1px;
+    margin:1px;
+    padding:1px;
+    text-align: left;
+    
+}
+
+legend {
+    padding: 1px;
+    margin:auto;
+    text-align: center;
+    font-size: large;
+    font-weight:bolder;
+    color:#333;
+}
+
+label, input, button, select, textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    align-self: center;
+}
+
+label {
+    text-align: left;
+    padding-left: 1px;
+}
+input, textarea {
+    padding:2px;
+    font-size: large;
+}
+
+input[type="radio"]{
+    width: 21px;
+    height: 21px;
+    vertical-align:bottom ;
+}
+
+input[type="checkbox"]{
+    width: 21px;
+    height: 21px;
+    vertical-align:bottom;
+}
+
+button {
+    margin: 10px;
+    background-color:cadetblue;
+    border: none;
+    border-radius: 0.5em;
+    padding: 10px;
+    padding-top: 10px;
+    width:150px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+button:hover {
+    background-color: green;
+}
 .hero {
     position:relative;
     text-align: center;

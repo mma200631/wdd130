@@ -1,0 +1,92 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color:darkmagenta;
+    background-color: antiquewhite;
+}
+
+header {
+    margin:2px;
+    width:300px;
+}
+
+h1 {
+    font-weight:bold;
+    font-size: 1.5em;
+    margin: 0.6em;
+    padding:1px;
+    color:black;
+    text-align: center;
+}
+
+form {
+    width:800px;
+    margin:auto;
+    padding:2px;
+    border:1px solid black;
+    border-radius: 0.5em;
+    background-color: azure;
+    display:grid;
+}
+
+fieldset {
+    display:grid;
+    grid-gap: 0.5em;
+    width:150;
+    height: auto;
+    margin:1px;
+    padding:2px;
+    border:1px solid black;
+}
+
+legend {
+    padding:5px;
+    margin:3px;
+    color:black;
+    text-align: center;
+}
+
+label, input, button, select, textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    align-items: center;
+}
+
+label {
+    text-align: center;
+    padding-left: 2px;
+}
+
+input, textarea,select {
+    padding:1px;
+    font-size: medium;
+}
+
+input[type="checkbox"] {
+    width:22px;
+    height:22px;
+    vertical-align:bottom;
+}
+
+button {
+    margin:1.5rem;
+    background-color:black;
+    color:aqua;
+    border:none;
+    border-radius:0.3rem;
+    padding: 0.2rem;
+    font-size:1,3rem;
+    width: 200px;
+    align-self:center;
+    justify-self: center;
+}
+
+button:hover {
+    color:darkred;
+}

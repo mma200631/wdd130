@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=" A valid Online quiz on Html and Css">
+        <meta name="author" content="Okpanachi Assumpta">
+        <title>Quiz Form on HTML AND CSS</title>
+        <link rel="stylesheet" href="styles/quiz.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Basic HTML and CSS QUiz</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>The HTML section</legend>
+                    <label for="q1">What does the acronym HTML stands for?"
+                    <input type="text" id="q1" name="q1">
+
+                    <label for="q2">What does the alt attribute in an img tag do?</label>
+                    <textarea id="q2" name="q2" rowspan="4"></textarea>
+
+                    <label for="q3">What is the purpose of select element in HTML</label>
+                    <select id="q3" name="q3" placeholder="choose one...">
+                        <option value="To create a dropdown list">To create a dropdown list</option>
+                        <option value="To create a text input field">To create a text input field</option>
+                        <option value="To define a table row">To define a table row</option>
+                        <option value="To display an image">To display an image</option>
+                    </select>
+                    <label for="q4">In the meta charset what number is added to the utf?</label>
+                    <input type="number" id="q4" name="q4">
+                </fieldset>
+                <fieldset>
+                    <legend>The CSS Section</legend>
+                    <label for="q1">What does the acronym CSS stands for?</label>
+                    <input type="text" id="q1" name="q1">
+
+                    <label for="q2">Which CSS property is used to control the resize behavior of a textarea?</label>
+                    <textarea id="q2" name="q2"></textarea>
+
+                    <label for="q3">How can you style the options inside a select element using CSS?</label>
+                    <select id="q3" name="q3" placeholder="choose one...">
+                        <option value="Using the option selector">Using the option selector</option>
+                        <option value="Using the select selector">Using the select selector</option>
+                        <option value="Using the dropdown selector">Using the dropdown selector</option>
+                        <option value="Using the option-list selector">Using the option-list selector</option>
+                    </select>
+                    <label for="q4">What is the buttom margin given this declaration (Margin:5px,10px,5px,15px)?</label>
+                    <input type="number" id="q4" name="q4">
+                </fieldset>
+                <button type="submit">Submit quiz</button>
+            </form>
+        </main>
+    </body>
+
+</html>
