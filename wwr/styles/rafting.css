@@ -93,17 +93,6 @@ p {
 }
 
 
-figure img {
-    width:1000px;
-    height:auto;
-    padding:1px;
-    position: relative;
-    display: block;
-}
-figcaption {
-    width: 200px;
-}
-
 .image-contanier {
     display: grid;
     grid-template-columns:repeat(3,1fr) ;
@@ -291,10 +280,12 @@ figure img{
 }
 
 figcaption {
+    width: 200px;
     font-size: 18px;
     margin-top: 10px;
     font-weight: bold;
     color:var(--text-color)
+
 }
 
 
