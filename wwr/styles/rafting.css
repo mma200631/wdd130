@@ -140,7 +140,7 @@ legend {
     color:#333;
 }
 
-label, input, button, select, textarea {
+ input, button, select, textarea {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     align-self: center;
