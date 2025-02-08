@@ -135,7 +135,7 @@ legend {
     color:#333;
 }
 
- input, button, select, textarea {
+label, input, button, select, textarea {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     align-self: center;
@@ -148,11 +148,16 @@ label {
     padding-left: 1px;
 }
 
-
-input[type="radio"][type="checkbox"]{
+input[type="radio"]{
     width: 21px;
     height: 21px;
     vertical-align:bottom ;
+}
+
+input[type="checkbox"]{
+    width: 21px;
+    height: 21px;
+    vertical-align:bottom;
 }
 
 button {
