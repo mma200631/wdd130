@@ -42,7 +42,7 @@ header .logo {
     text-decoration: none;
     padding: 5px;
     margin: 1px;
-    border:2pxx;
+    border:2px;
     border-style: ridge;
 }
 
@@ -92,10 +92,6 @@ p {
     border: 1px;
 }
 
-figure {
-    width: 300px;
-    margin:auto;
-}
 
 figure img {
     width:1000px;
