@@ -168,7 +168,7 @@ input[type="checkbox"]{
 
 button {
     margin: 10px;
-    background-color:cadetblue;
+    background-color:lightblue;
     border: none;
     border-radius: 0.5em;
     padding: 10px;
@@ -278,7 +278,7 @@ figure {
 }
 
 figure img{
-    width:150px;
+    width:300px;
     height:auto;
 
 }
